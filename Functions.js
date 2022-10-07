@@ -1,9 +1,12 @@
 /* EXERCISE 1
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
+var l1 = 12;
+var l2 = 10;
 function area(l1, l2) {
-  whattheactualfuck;
+  return l1 * l2;
 }
+console.log("Exercise 1: The area of your rectangle is " + area(l1, l2) + "cm");
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
@@ -46,32 +49,28 @@ function boundary(boundary) {
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
 
-/* WRITE YOUR ANSWER HERE */
-
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
  HINT: Modulus Operator
 */
-var num;
-
-num = prompt("Enter the number");
-
-if (num % 3 == 0) document.write("Multiple of 3");
-else document.write("Not a multiple of 3");
-/* WRITE YOUR ANSWER HERE */
-
+function check3an7d(numberdiv) {
+  if (numberdiv % 3 == 0 || numberdiv % 7 == 0) {
+    return "Exercise 6: " + numberdiv + " is a multiple of 3 or 7";
+  } else {
+    return "Exercise 6: Not a multiple of 3 or 7";
+  }
+}
+console.log(check3an7d(15));
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
-
-/* WRITE YOUR ANSWER HERE */
-
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
-
-/* WRITE YOUR ANSWER HERE */
-
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+console.log(capitalizeFirstLetter("exercise 8: how the f jake got there?!")); //usable only for 1 word - searching for other solutions
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
