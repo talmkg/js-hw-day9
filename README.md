@@ -1,1 +1,2 @@
-<iframe src="https://giphy.com/embed/3o7WIQnDdXNKbHavv2" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chill-cowboy-bepop-3o7WIQnDdXNKbHavv2">via GIPHY</a></p>
+
+![Alt Text](https://media0.giphy.com/media/3o7WIQnDdXNKbHavv2/giphy.gif?cid=ecf05e47l35w2agxw9agvyfhjlzlpoxnvfrcbew40wyv9ro3&rid=giphy.gif&ct=g)
