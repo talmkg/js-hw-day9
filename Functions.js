@@ -86,15 +86,21 @@ console.log(capitalizeFirstLetter("Exercise 8: how the f jake got there?!")); //
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
-
+function cutString(str) {
+  if ((cutString = str)) {
+    let data = str.substring(1, str.length - 1);
+    return data;
+  }
+}
+console.log("Exercise 9: " + cutString("Hello World"));
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
-
-/* WRITE YOUR ANSWER HERE */
-
-/* WHEN YOU ARE FINISHED
- Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
-*/
+function giveMeRandom(number) {
+  if ((giveMeRandom = Number)) {
+    return Math.floor(Math.random() * 10) + 1;
+  }
+}
+console.log("Exercise 10: " + giveMeRandom(5));
